@@ -6,11 +6,11 @@
 </head>
 <body>
 
-<jsp:include page="views/jsp/header.jsp"/>
+<jsp:include page="view/jsp/header.jsp"/>
 
 <div class="container-fluid">
     <div class="row">
-        <jsp:include page="views/jsp/categories.jsp"/>
+        <jsp:include page="view/jsp/categories.jsp"/>
         <div class="col-xs-10">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -92,6 +92,6 @@
         </div>
     </div>
 </div>
-<jsp:include page="views/jsp/footer.jsp"/>
+<jsp:include page="view/jsp/footer.jsp"/>
 </body>
 </html>

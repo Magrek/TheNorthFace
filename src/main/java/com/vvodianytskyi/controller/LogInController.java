@@ -19,7 +19,7 @@ public class LogInController extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("views/jsp/login.jsp").forward(request, response);
+        request.getRequestDispatcher("view/jsp/login.jsp").forward(request, response);
     }
 
     @Override

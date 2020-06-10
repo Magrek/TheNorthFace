@@ -3,9 +3,9 @@
 <html>
 <head>
     <title>Bag</title>
-    <link rel="image" href="views/css/image.css"/>
-    <link rel="image" href="views/css/polaroid.css"/>
-    <link rel="image" href="views/css/imageAlign.css"/>
+    <link rel="image" href="view/css/image.css"/>
+    <link rel="image" href="view/css/polaroid.css"/>
+    <link rel="image" href="view/css/imageAlign.css"/>
     <style><%@include file="../css/gallery.css"%></style>
     <style><%@include file="../css/bagbtn.css"%></style>
 </head>

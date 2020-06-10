@@ -44,10 +44,10 @@
                         </c:otherwise>
                     </c:choose>
                     <li class="dropdown dropdown-menu-right">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">RU<span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">EN<span class="caret"></span></a>
                         <ul class="dropdown-menu nav navbar-nav">
                             <li><a href="#">UA</a></li>
-                            <li><a href="#">EN</a></li>
+                            <li><a href="#">RU</a></li>
                         </ul>
                     </li>
                 </ul>

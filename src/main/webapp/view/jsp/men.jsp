@@ -13,7 +13,7 @@
     <div class="row">
         <table>
             <thead>
-            <h2 class="text-center">MEN'S</h2>
+                <h2 class="text-center">MEN'S</h2>
             </thead>
             <tbody>
             <tr>
@@ -32,7 +32,7 @@
                 <th>
                     <a href="#">
                         <img class="img-responsive" src="static/images/categories/men.jpg" style="width:90%">
-                        <h4 class="text-center">SHOP THE TEKNO HOODIE</h4>
+                        <h4 class="text-center">SHOP THE TECHNO HOODIE</h4>
                     </a>
                 </th>
             </tr>

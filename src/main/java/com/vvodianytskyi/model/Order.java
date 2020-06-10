@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 public class Order {
 
-    public Order(int id){}
+    public Order(int id) {}
 
     @Setter(AccessLevel.NONE)
     private int id;

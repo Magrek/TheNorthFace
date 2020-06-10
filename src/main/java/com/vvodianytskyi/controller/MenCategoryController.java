@@ -12,6 +12,6 @@ public class MenCategoryController extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("views/jsp/men.jsp").forward(request, response);
+        request.getRequestDispatcher("view/jsp/men.jsp").forward(request, response);
     }
 }

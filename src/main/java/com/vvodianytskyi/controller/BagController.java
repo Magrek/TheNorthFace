@@ -20,11 +20,11 @@ public class BagController extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("views/jsp/bag.jsp").forward(request, response);
+        request.getRequestDispatcher("view/jsp/bag.jsp").forward(request, response);
     }
 
     @Override
-    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         HttpSession session = request.getSession();
         List<Product> bag = (List<Product>) session.getAttribute("bag");
         bag.remove(productService.getProduct(Integer.parseInt(request.getParameter("id"))));
